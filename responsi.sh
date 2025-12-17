@@ -70,7 +70,7 @@ case $pilihan in
 				*)
 					echo "Pilihan tidak valid!"
 					;;
-		exac
+		esac
 		;;
 	4)
 		echo "1. gzip"
@@ -89,7 +89,7 @@ case $pilihan in
 				*)
 					echo "Pilihan tidak valid!"
 					;;
-		exac
+		esac
 		;;
 	5)
 		echo "1. cat"
@@ -108,7 +108,7 @@ case $pilihan in
 				*)
 					echo "Pilihan tidak valid!"
 					;;
-		exac
+		esac
 		;;
 	6)
 		echo "1. ps -u"
@@ -128,6 +128,6 @@ case $pilihan in
 				*)
 					echo "Pilihan tidak valid!"
 					;;
-		exac
+		esac
 		;;
-exac
+esac
