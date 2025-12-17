@@ -1,5 +1,3 @@
-ISI FILE INI 
-
 #!/bin/bash
 
 echo "RESPONSI SISTEM OPERASI"
