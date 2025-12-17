@@ -33,5 +33,19 @@ MODUL 4
   dimana sistem akan mencari file berdasarkan nama atau pola tertentu
 
 MODUL 5
+* File Descriptor (Standard Output)
+  dengan menggunakan tanda pembelokan "perintah > file_output"
+  dimana hasil keluaran perintah akan disimpan ke dalam file
+* Pembelokan Error (Standard Error)
+  dengan menggunakan "perintah 2> file_error"
+  dimana pesan kesalahan (error) akan diarahkan ke file tertentu.
 
+MODUL 6
+* Menampilkan Status Proses
+  dengan menggunakan perintah "ps"
+  dimana sistem akan menampilkan proses yang sedang berjalan.
+* Mengontrol Proses
+  dengan menggunakan perintah "jobs"
+                              "kill"
+  dimana proses dapat dijalankan di background dan dihentikan sesuai kebutuhan user.
 
