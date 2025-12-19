@@ -44,6 +44,33 @@ Contoh perintah:
 - `ps -u` → menampilkan proses user aktif
 - `ps -u username` → menampilkan proses berdasarkan user tertentu
 
+## BAB 7: Pemrograman Bash Dasar
+Pemrograman Bash dasar membahas perintah-perintah dasar dalam shell
+untuk mempermudah penggunaan Linux.
+
+Materi yang dibahas:
+- `history` → menampilkan riwayat perintah
+- `alias` → membuat shortcut perintah
+- `PS1` → mengubah tampilan prompt terminal
+- `chmod +x` → memberi izin eksekusi pada script bash
+
+BAB ini bertujuan agar pengguna memahami cara menjalankan dan
+mengelola perintah melalui script bash.
+
+## BAB 8: Pemrograman Bash Lanjutan
+Pemrograman Bash lanjutan membahas penggunaan struktur logika
+dan pemrograman di dalam script bash.
+
+Materi yang dibahas:
+- Variabel dalam bash
+- Input dari user menggunakan `read`
+- Percabangan menggunakan `if`
+- Perulangan menggunakan `for`
+- Pembuatan dan pemanggilan fungsi
+
+BAB ini bertujuan untuk membuat script bash yang interaktif
+dan lebih kompleks.
+
 ## Cara Menjalankan Program
 1. Pastikan file sudah memiliki izin eksekusi
 2. Jalankan script dengan perintah:

@@ -8,6 +8,8 @@ echo "3. BAB 3: Konfigurasi Linux"
 echo "4. BAB 4: Utilitas Linux"
 echo "5. BAB 5: Proses Input Output"
 echo "6. BAB 6: Manajemen Proses"
+echo "7. BAB 7: Pemrograman Bash Dasar"
+echo "8. BAB 8: Pemrograman Bash Lanjutan"
 read -p "Pilih Menu: " pilihan
 
 case $pilihan in
@@ -122,3 +124,48 @@ case $pilihan in
 	echo "Menu tidak tersedia"
 	;;
 esac 
+7)
+    echo "1. Variabel"
+    echo "2. History"
+    read -p "Pilih: " pilih7
+
+        case $pilih7 in
+            1)
+                nama="Linux"
+                echo "Halo $nama"
+                ;;
+            2)
+                echo "Riwayat perintah:"
+                history | tail
+                ;;
+            *)
+                echo "Pilihan tidak valid!"
+                ;;
+        esac
+    ;;
+8)
+    echo "1. Percabangan IF"
+    echo "2. Perulangan FOR"
+    read -p "Pilih: " pilih8
+
+        case $pilih8 in
+            1)
+                read -p "Masukkan angka: " angka
+                if [ $angka -gt 10 ]; then
+                    echo "Angka lebih dari 10"
+                else
+                    echo "Angka kurang atau sama dengan 10"
+                fi
+                ;;
+            2)
+                for i in 1 2 3 4 5
+                do
+                    echo "Perulangan ke-$i"
+                done
+                ;;
+            *)
+                echo "Pilihan tidak valid!"
+                ;;
+        esac
+    ;;
+
